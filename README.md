@@ -46,3 +46,9 @@ Bag of words Basic Algorithm -
 ***Euclidan = Normal Distance. Not reliable in higher dimensions
 
 ****Cosine Distance = Distance in terms of angles
+
+# Frontend code 
+
+Front code was written using the streamlit library and the pickle files were pushed using git LFS so cloning them directly might not work that efficiently. 
+
+# *Proceed at your own risk*
