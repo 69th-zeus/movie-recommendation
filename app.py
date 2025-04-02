@@ -10,6 +10,7 @@ def recommend(movie):
     
     recommended_movies = []
     for i in movies_list:
+        movie_id = i[0]
         recommended_movies.append(movies.iloc[i[0]].title)
     
     return recommended_movies
@@ -29,5 +30,3 @@ if st.button("Recommend"):
     recommendations = recommend(selected_movie_name)
     for name in recommendations:
         st.write(name)
-    
-recommend("Avatar")
